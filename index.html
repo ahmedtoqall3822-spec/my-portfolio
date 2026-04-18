@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmed Abdelrahman | Data Analyst</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">[</span>AA<span class="logo-bracket">]</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="theme-icon sun">☀</span>
+          <span class="theme-icon moon">◑</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-container">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>Available for opportunities
+      </div>
+      <h1 class="hero-name reveal">Ahmed<br /><em>Abdelrahman</em></h1>
+      <p class="hero-title reveal">
+        <span class="mono">Data Analyst</span>
+        <span class="divider">·</span>
+        <span class="mono">Computer Science Student</span>
+      </p>
+      <p class="hero-summary reveal">
+        I transform raw data into clear, actionable insights. From messy spreadsheets
+        to executive dashboards — I bridge the gap between numbers and decisions.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-num">4+</span>
+          <span class="stat-label">Analytics Projects</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <span class="stat-num">5</span>
+          <span class="stat-label">Tools Mastered</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <span class="stat-num">CS</span>
+          <span class="stat-label">Background</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="dashboard-card reveal">
+        <div class="dc-header">
+          <span class="dc-dot r"></span><span class="dc-dot y"></span><span class="dc-dot g"></span>
+          <span class="dc-title">Q4 Sales Overview</span>
+        </div>
+        <div class="dc-chart">
+          <div class="bar-group">
+            <div class="bar" style="--h:55%;--delay:0s"></div>
+            <div class="bar" style="--h:75%;--delay:.1s"></div>
+            <div class="bar" style="--h:48%;--delay:.2s"></div>
+            <div class="bar" style="--h:90%;--delay:.3s"></div>
+            <div class="bar" style="--h:63%;--delay:.4s"></div>
+            <div class="bar active" style="--h:82%;--delay:.5s"></div>
+          </div>
+          <div class="dc-labels">
+            <span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span>
+          </div>
+        </div>
+        <div class="dc-kpis">
+          <div class="kpi"><span class="kpi-val">↑ 24%</span><span class="kpi-key">Growth</span></div>
+          <div class="kpi"><span class="kpi-val">$1.2M</span><span class="kpi-key">Revenue</span></div>
+          <div class="kpi"><span class="kpi-val">98.3%</span><span class="kpi-key">Accuracy</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">01 / About</span>
+        <h2 class="section-title">From Data to Decisions</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a Computer Science student with a strong focus on data analysis and
+            business intelligence. I believe the most valuable skill in the modern
+            world is the ability to <strong>ask the right questions of data</strong>
+            and communicate the answers to stakeholders who need them.
+          </p>
+          <p>
+            My CS background gives me a rigorous foundation in algorithms and
+            problem-solving, which I apply daily when working with complex datasets.
+            Whether it's cleaning a 50,000-row Excel file, writing multi-table SQL
+            queries, or building an interactive Power BI dashboard — I approach every
+            project with the mindset of a business analyst, not just a programmer.
+          </p>
+          <p>
+            I'm passionate about the intersection of <em>data storytelling</em> and
+            decision-making: turning noise into clarity, and spreadsheets into strategy.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <span class="hi-icon">◎</span>
+              <span>Data Cleaning & Transformation</span>
+            </div>
+            <div class="highlight-item">
+              <span class="hi-icon">◎</span>
+              <span>Dashboard Design & KPI Reporting</span>
+            </div>
+            <div class="highlight-item">
+              <span class="hi-icon">◎</span>
+              <span>Statistical Analysis & Pattern Recognition</span>
+            </div>
+            <div class="highlight-item">
+              <span class="hi-icon">◎</span>
+              <span>Translating Insights to Business Value</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-card reveal">
+          <div class="profile-visual">
+            <div class="profile-ring">
+              <div class="profile-initials">AA</div>
+            </div>
+          </div>
+          <div class="info-list">
+            <div class="info-row">
+              <span class="info-key">Role</span>
+              <span class="info-val">Data Analyst</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Education</span>
+              <span class="info-val">CS Student</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Focus</span>
+              <span class="info-val">BI & Analytics</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Status</span>
+              <span class="info-val available">Open to Work</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">02 / Skills</span>
+        <h2 class="section-title">Technical Toolkit</h2>
+      </div>
+
+      <div class="skills-layout">
+        <!-- Left: Proficiency bars -->
+        <div class="skills-bars reveal">
+          <h3 class="skills-sub">Proficiency</h3>
+          <div class="skill-bar-item">
+            <div class="sb-meta">
+              <span class="sb-name">Microsoft Excel</span>
+              <span class="sb-pct">85%</span>
+            </div>
+            <div class="sb-track"><div class="sb-fill" data-w="85"></div></div>
+            <span class="sb-tag">Data Cleaning · Pivot Tables · Charts</span>
+          </div>
+          <div class="skill-bar-item">
+            <div class="sb-meta">
+              <span class="sb-name">SQL</span>
+              <span class="sb-pct">80%</span>
+            </div>
+            <div class="sb-track"><div class="sb-fill" data-w="80"></div></div>
+            <span class="sb-tag">Queries · Joins · Aggregations · Views</span>
+          </div>
+          <div class="skill-bar-item">
+            <div class="sb-meta">
+              <span class="sb-name">Python</span>
+              <span class="sb-pct">75%</span>
+            </div>
+            <div class="sb-track"><div class="sb-fill" data-w="75"></div></div>
+            <span class="sb-tag">Pandas · NumPy · Matplotlib · Seaborn</span>
+          </div>
+          <div class="skill-bar-item">
+            <div class="sb-meta">
+              <span class="sb-name">Power BI</span>
+              <span class="sb-pct">70%</span>
+            </div>
+            <div class="sb-track"><div class="sb-fill" data-w="70"></div></div>
+            <span class="sb-tag">Dashboards · DAX · Data Modeling</span>
+          </div>
+          <div class="skill-bar-item">
+            <div class="sb-meta">
+              <span class="sb-name">C++</span>
+              <span class="sb-pct">65%</span>
+            </div>
+            <div class="sb-track"><div class="sb-fill" data-w="65"></div></div>
+            <span class="sb-tag">OOP · Algorithms · Data Structures</span>
+          </div>
+        </div>
+
+        <!-- Right: Skill cards -->
+        <div class="skills-cards">
+          <div class="skill-card reveal" data-level="Advanced">
+            <div class="sc-icon">⬡</div>
+            <h4>Excel</h4>
+            <p>Advanced formulas, VLOOKUP, Pivot Tables, Power Query, and dynamic charts for business reporting.</p>
+            <span class="sc-level advanced">Advanced</span>
+          </div>
+          <div class="skill-card reveal" data-level="Intermediate">
+            <div class="sc-icon">◈</div>
+            <h4>SQL</h4>
+            <p>Complex multi-table queries, window functions, CTEs, and performance-tuned data extraction.</p>
+            <span class="sc-level intermediate">Intermediate</span>
+          </div>
+          <div class="skill-card reveal" data-level="Intermediate">
+            <div class="sc-icon">◇</div>
+            <h4>Python</h4>
+            <p>Data wrangling with Pandas, statistical analysis with NumPy, and visualization with Matplotlib.</p>
+            <span class="sc-level intermediate">Intermediate</span>
+          </div>
+          <div class="skill-card reveal" data-level="Intermediate">
+            <div class="sc-icon">▣</div>
+            <h4>Power BI</h4>
+            <p>Interactive dashboards, DAX measures, custom visuals, and executive-ready KPI reports.</p>
+            <span class="sc-level intermediate">Intermediate</span>
+          </div>
+          <div class="skill-card reveal" data-level="Intermediate">
+            <div class="sc-icon">△</div>
+            <h4>DSA</h4>
+            <p>Data structures and algorithms foundation — trees, graphs, sorting, and complexity analysis.</p>
+            <span class="sc-level intermediate">Intermediate</span>
+          </div>
+          <div class="skill-card reveal" data-level="Beginner+">
+            <div class="sc-icon">○</div>
+            <h4>C++</h4>
+            <p>OOP programming, memory management, and algorithm implementation for competitive contexts.</p>
+            <span class="sc-level beginner">Beginner+</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">03 / Projects</span>
+        <h2 class="section-title">Analytics in Action</h2>
+      </div>
+
+      <div class="projects-grid projects-grid--single">
+
+        <!-- BMW Dashboard -->
+        <article class="project-card project-card--featured reveal">
+          <div class="pc-top">
+            <div class="pc-number">01</div>
+            <div class="pc-tools">
+              <span class="tool-tag">Power BI</span>
+              <span class="tool-tag">Excel</span>
+              <span class="tool-tag">DAX</span>
+              <span class="tool-tag">Dashboard</span>
+            </div>
+          </div>
+          <h3 class="pc-title">BMW Sales Dashboard</h3>
+          <p class="pc-desc">
+            An interactive Power BI dashboard analyzing BMW's sales performance across
+            multiple regions and model lines. The report consolidates revenue trends,
+            units sold, and market share data into a single executive-ready view —
+            enabling fast, evidence-based decisions without digging through raw spreadsheets.
+          </p>
+          <div class="pc-outcome">
+            <span class="outcome-label">Business Value</span>
+            <p>
+              Delivered real-time KPI visibility across sales regions, surfacing
+              underperforming markets and high-growth segments — cutting manual
+              reporting effort and accelerating strategic review cycles.
+            </p>
+          </div>
+          <div class="pc-footer">
+            <div class="pc-tags">
+              <span class="tag">Automotive</span>
+              <span class="tag">Sales Analytics</span>
+              <span class="tag">KPI</span>
+              <span class="tag">BI</span>
+            </div>
+            <div class="pc-actions">
+              <a href="https://github.com/ahmedtoqall3822-spec/BMW-dashboard"
+                 target="_blank" rel="noopener" class="btn-small">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">04 / Contact</span>
+        <h2 class="section-title">Let's Work Together</h2>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-info reveal">
+          <p class="contact-lead">
+            Have a dataset that needs a story? A dashboard that needs building?
+            Or just want to talk data — I'm always open to a conversation.
+          </p>
+          <div class="contact-items">
+            <div class="ci-row">
+              <span class="ci-icon">✉</span>
+              <a href="mailto:ahmedtoqall3822@gmail.com" class="ci-link">ahmedtoqall3822@gmail.com</a>
+            </div>
+            <div class="ci-row">
+              <span class="ci-icon">◎</span>
+              <a href="https://wa.me/201114185317" target="_blank" rel="noopener" class="ci-link">+20 111 418 5317 (WhatsApp)</a>
+            </div>
+            <div class="ci-row">
+              <span class="ci-icon">⊙</span>
+              <span>Egypt — Available Remotely</span>
+            </div>
+            <div class="ci-row">
+              <span class="ci-icon">◌</span>
+              <span>Open to internships &amp; freelance</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" />
+              <span class="field-error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email" />
+              <span class="field-error" id="emailError"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project inquiry / Data analysis request" />
+            <span class="field-error" id="subjectError"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your data challenge..."></textarea>
+            <span class="field-error" id="messageError"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+            <span class="btn-text">Send Message</span>
+            <span class="btn-loader" hidden>Sending…</span>
+          </button>
+          <div class="form-feedback" id="formFeedback"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <span class="logo-bracket">[</span>AA<span class="logo-bracket">]</span>
+          </a>
+          <p>Data Analyst · Computer Science Student</p>
+        </div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <p>© 2025 Ahmed Abdelrahman. Built with precision — no frameworks, pure craft.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
